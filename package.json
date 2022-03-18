@@ -4,13 +4,13 @@
   "description": "crud application with express and mongodb",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "keywords": [
     "crud",
     "mongodb"
   ],
-  "author": "akshay kashyap",
+  "author": "Harsh Gupta",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.4",        
