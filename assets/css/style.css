@@ -1,5 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow&family=PT+Sans&display=swap');
 
+/*
+body{
+    background-image: url("https://images.unsplash.com/photo-1647034166469-22eac250676a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80");
+    background-repeat: no-repeat;  Do not repeat the image 
+  background-size: cover; 
+
+}
+*/
+
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
 :root{
     --dark: #2b2d42;
     --light: #adb5bd;
@@ -13,6 +43,35 @@
     box-sizing: border-box;
 }
 
+#particles-js {
+    background: black;
+    height: 100vh;
+}
+
+.background {
+    
+   
+
+    position
+    :
+     center
+    ;
+      
+    display
+    :
+     block
+    ;
+      
+    top
+    : 0;
+      
+    left
+    : 0;
+      
+    z-index
+    : 0;
+    }
+
 a {
     text-decoration: none;
     font-family: 'PT Sans', sans-serif; 
@@ -24,7 +83,7 @@ a {
 }
 
 .nav-brand{
-    font-size: 1.5em;
+    font-size: 2.5em;
     font-weight: bold;
 }
 
@@ -59,14 +118,14 @@ a {
 }
 
 .text-gradient{
-    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    background: linear-gradient(to right, white, white);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 #header nav{
-    background-color: #06d6a0;
+    /* background-color: #06d6a0; */
     padding: 1em 0;
     width: 100%;
 }
@@ -77,11 +136,13 @@ a {
 }
 
 #site-main .container .box-nav > a{
+    
     font-size: 1em;
     padding: .5em 1em;
 }
 
 #site-main .container form{
+    
     margin: 2em 0;
 }
 
@@ -216,7 +277,7 @@ table{
 #add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
-    background-color:#16db93; 
+    /* background-color:#16db93;  */
     border: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
